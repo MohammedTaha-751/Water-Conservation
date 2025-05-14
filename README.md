@@ -38,5 +38,13 @@ To run the project locally:
    ```bash
    git clone https://github.com/your-username/water-conservation-project.git
    cd water-conservation-project
+2.Make sure all files (index.html, styles.css, script.js, and images/) are in the same directory.
+
+3.Open index.html in your browser.
+📸 Screenshots
+(Add screenshots of the interface and particle animation once available)
+
+📬 Contact
+Feel free to reach out via the contact form on the site or open an issue in this repository.
 
 
