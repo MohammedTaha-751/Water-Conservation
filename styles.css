@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #00796b;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Content Section Styles */
+.content h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #00796b;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Image Section */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* List Section Styles */
+h3 {
+    font-size: 1.8rem;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    background-color: #e0f2f1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+ul li:hover {
+    background-color: #00796b;
+    color: white;
+    transform: scale(1.05);
+}
+
+ul li:nth-child(odd) {
+    background-color: #c8e6c9;
+}
+
+/* Button Styling */
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* Close Button */
+.closeBtn {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+.closeBtn:hover {
+    background-color: #b71c1c;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #004d40;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #00796b;
+    text-align: center;
+}
+
+/* Particle Effect */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

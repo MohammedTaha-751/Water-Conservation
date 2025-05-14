@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Conservation - Sci-Fi Action</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Particle Effect (Sci-Fi Theme) -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header>
+            <h1>Save Water, Save the Planet</h1>
+        </header>
+
+        <section class="content">
+            <h2>Water: The Lifeline of Our Planet</h2>
+            <p>Water is more valuable than any resource on Earth. Without it, life as we know it would not exist. It's time to protect what sustains us!</p>
+
+            <div class="image-container">
+                <img src="images/water-splash.jpg" alt="Water Splash" class="image">
+            </div>
+
+            <h3>Why Should We Conserve Water?</h3>
+            <ul class="interactive-list">
+                <li><span class="icon">&#128167;</span> Clean water is essential for life!</li>
+                <li><span class="icon">&#127807;</span> Protect ecosystems and wildlife.</li>
+                <li><span class="icon">&#9889;</span> We face a global water shortage.</li>
+            </ul>
+
+            <!-- Buttons -->
+            <button id="showTipsBtn">Show Water Conservation Tips</button>
+            <button id="viewFactsBtn">View More Facts</button>
+            <button id="contactUsBtn">Contact Us</button>
+
+            <!-- Water Conservation Tips -->
+            <div id="waterTips" class="hidden">
+                <h3>Quick Tips for Saving Water:</h3>
+                <ul>
+                    <li>Turn off the tap while brushing your teeth.</li>
+                    <li>Use water-efficient appliances.</li>
+                    <li>Fix leaky faucets and pipes.</li>
+                    <li>Take shorter showers to save water.</li>
+                    <li>Water plants during cooler hours (early morning or late evening).</li>
+                </ul>
+                <button id="closeTipsBtn" class="closeBtn">Close</button>
+            </div>
+
+            <!-- Water Conservation Facts -->
+            <div id="moreFacts" class="hidden">
+                <h3>Interesting Facts About Water Conservation:</h3>
+                <ul>
+                    <li>It takes about 1,800 gallons of water to produce one pair of jeans!</li>
+                    <li>70% of Earth’s surface is water, but only 2.5% is freshwater.</li>
+                    <li>It takes approximately 1,000 liters of water to produce 1 kg of rice in India.</li>
+                    <li>In urban areas, nearly 40% of water is lost due to leaks and poor infrastructure.</li>
+                    <li>One person can save up to 3,000 gallons of water a year by switching to low-flow showerheads.</li>
+                </ul>
+                <button id="closeFactsBtn" class="closeBtn">Close</button>
+            </div>
+
+            <!-- Contact Form -->
+            <div id="contactForm" class="hidden">
+                <h3>Contact Us</h3>
+                <form id="contactFormElement">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Success Message (hidden by default) -->
+            <div id="successMessage" class="hidden">
+                <h3>Thank you for contacting us!</h3>
+                <p>Your message has been successfully sent. We will get back to you soon.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Let's unite to protect our most precious resource!</p>
+        </footer>
+    </div>
+
+    <!-- JS for Particles and Water Animation -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
